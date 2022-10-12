@@ -51,9 +51,9 @@ public class Product {
         return id;
     }
 
-     public void setId(int id) {
-       this.id = id;
-     }
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -77,7 +77,7 @@ public class Product {
             Product[] prod = new Product[products.length - 1];
             int copyIndex = 0;
             for (Product product : products) {
-                if ( product.findById !=id) {
+                if (product.findById != id) {
                     prod[copyIndex] = product;
                     copyIndex++;
                 }
